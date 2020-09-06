@@ -1,0 +1,172 @@
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2{
+  font-weight: bold;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 5%;
+
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff4c68;
+}
+
+/* ---------------NAVIGATION BAR------------------ */
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 16px;
+  font-weight: 100;
+}
+
+/* -----Download Button------ */
+
+.download-btn{
+  margin: 10% 3% 0 0;
+}
+
+/* -----Title Image----- */
+.img-cont{
+  width: 100%;
+  margin-top: 5%;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+@media (max-width:991px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+/* -----Feature section--------- */
+#features{
+  padding: 7% 24%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+
+}
+
+.icono-feature{
+  margin-bottom: 2rem;
+  color: #ef8172;
+}
+.icono-feature:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.testimonial-img{
+  width: 6rem;
+  margin: 30px 20px 10px;
+  border-radius: 50%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 8rem;
+  margin: 2rem;
+}
+.carousel-item{
+  padding: 7% 24% 3% 24%;
+}
+
+/* PRICING */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 4%;
+}
+
+/* -----------CTA SECTION-------------- */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 20%;
+}
+
+.header-cta{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+/* ------FOOTER SECTION----------- */
+
+#footer{
+  background-color: #fff;
+  padding: 1% 15% 0.5%;
+  text-align: center;
+}
+
+.footer-rrss-icon{
+  font-size: 1rem;
+  padding: 30px 5px;
+}
